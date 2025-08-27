@@ -1,7 +1,7 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
 import Header from '../../Component/header';
-export default function App() {
+export default function Profile() {
   return (
    <Header></Header>
   );
