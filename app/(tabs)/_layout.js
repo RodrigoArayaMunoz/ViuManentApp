@@ -36,7 +36,7 @@ const TabsLayout = () => {
        }} />
 
        
-      <Tabs.Screen name="Profile" options={{ title: 'Profile',
+      <Tabs.Screen name="Profile" options={{ title: 'Mi Perfil',
         tabBarIcon: ({focused}) => 
         <Ionicons 
         name={focused ? 'person' : 'person-outline'}
