@@ -2,6 +2,7 @@ import { StatusBar } from 'expo-status-bar';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import Header from '../../Component/header';
 import ImagesCarousel from '../../Component/ImagesCarousel';
+import CardWinesCarousel from '../../Component/CardWinesCarousel';
 
 export default function App() {
   return (
@@ -9,6 +10,7 @@ export default function App() {
     <>
     <Header></Header>
     <ImagesCarousel></ImagesCarousel>
+    <CardWinesCarousel></CardWinesCarousel>
     </>
   )
 }

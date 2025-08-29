@@ -56,7 +56,7 @@ const ImageCarousel = () => {
 
 const styles = StyleSheet.create({
   carouselContainer: {
-    marginBottom: 500,
+    marginBottom:80,
     alignItems: 'center',
     justifyContent: 'center',
     flex: 1,
